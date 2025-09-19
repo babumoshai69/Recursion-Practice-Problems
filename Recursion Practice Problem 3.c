@@ -18,11 +18,12 @@ int main()
     scanf("%d",&n);
     if(n==0)
     {
-        printf("Count of digits: %d",n);
-        printf("\nDigits: %d",n);
+        printf("Count of digits: 0");
+        printf("\nDigits: 1");
     }
     printf("Digits: ");
     int count=fun(n);
     printf("\nCount of digits: %d",count);
     return 0;
 }
+
